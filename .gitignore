@@ -1,0 +1,18 @@
+.env
+.venv/
+.venv313/
+__pycache__/
+.pytest_cache/
+backend/vector_store/*
+!backend/vector_store/.gitkeep
+evaluation-results.json
+rapport/qa/
+rapport/travail/
+
+# Fichiers locaux et artefacts generes
+*.log
+.env.*
+!.env.example
+.venv*/
+rapport/
+~$*
